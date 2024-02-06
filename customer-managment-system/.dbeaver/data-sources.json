@@ -1,0 +1,71 @@
+{
+	"folders": {},
+	"connections": {
+		"h2_embedded-18d5be8cfd5-befe0eb4d3dd998": {
+			"provider": "h2",
+			"driver": "h2_embedded",
+			"name": "customer-system.log",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Casper\\Desktop\\sepm-individual-assignment-mayoof-main-backend\\backend\\log\\customer-system.log",
+				"url": "jdbc:h2:C:\\Users\\Casper\\Desktop\\sepm-individual-assignment-mayoof-main-backend\\backend\\log\\customer-system.log",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"h2_embedded-18d60b23991-49003dcd515a4dfb": {
+			"provider": "h2",
+			"driver": "h2_embedded",
+			"name": "customer-system.log 2",
+			"save-password": true,
+			"configuration": {
+				"database": "log/customer-system.log",
+				"url": "jdbc:h2:log/customer-system.log",
+				"configurationType": "URL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"h2_embedded-18d60ce6b70-7fea32edd1172c92": {
+			"provider": "h2",
+			"driver": "h2_embedded",
+			"name": ".log",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Casper\\eclipse-workspace1\\.metadata\\.log",
+				"url": "jdbc:h2:C:\\Users\\Casper\\eclipse-workspace1\\.metadata\\.log",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"h2_embedded-18d6105e936-3b936118314bfcf": {
+			"provider": "h2",
+			"driver": "h2_embedded",
+			"name": "dbCustomer",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Casper\\eclipse-workspace\\dbCustomer",
+				"url": "jdbc:h2:C:\\Users\\Casper\\eclipse-workspace\\dbCustomer",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}

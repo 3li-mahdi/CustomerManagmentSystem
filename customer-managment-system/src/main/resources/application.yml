@@ -1,0 +1,22 @@
+logging:
+  level:
+    root: INFO
+  file:
+    name: dbCustomer
+
+spring:
+  application:
+    name: customer-system
+  datasource:
+    url: "jdbc:h2:./customers"
+    username: "ali"
+    password: ""
+    driver-class-name: "org.h2.Driver"
+  h2:
+    console:
+      enabled: true
+  jpa: 
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8080
