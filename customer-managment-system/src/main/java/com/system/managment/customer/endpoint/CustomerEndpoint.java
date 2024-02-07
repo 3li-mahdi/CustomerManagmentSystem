@@ -6,11 +6,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-
 import com.system.managment.customer.endpoint.dto.CustomerDto;
 import com.system.managment.customer.exception.NotFoundException;
 import com.system.managment.customer.service.CustomerService;
-
 import javax.validation.Valid;
 import java.util.List;
 
@@ -25,7 +23,7 @@ public class CustomerEndpoint {
     public CustomerEndpoint(CustomerService customerService) {
         this.customerService = customerService;
     }
-
+   
     @GetMapping(value = "/{id}")
     public ResponseEntity<CustomerDto> findCustomerById(@PathVariable("id") Long id) {
         LOGGER.info("GET {}/{}", BASE_URL, id);

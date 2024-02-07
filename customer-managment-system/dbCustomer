@@ -1,21 +1,25 @@
-2024-02-04 14:49:57.064  INFO 9376 --- [main] c.s.m.customer.CustomerManagmentSystem   : Starting CustomerManagmentSystem using Java 17.0.7 on DESKTOP-NN3IC12 with PID 9376 (C:\Users\Casper\Desktop\sepm-individual-assignment-mayoof-main-backend\backend\target\classes started by Casper in C:\Users\Casper\Desktop\sepm-individual-assignment-mayoof-main-backend\backend)
-2024-02-04 14:49:57.075  INFO 9376 --- [main] c.s.m.customer.CustomerManagmentSystem   : No active profile set, falling back to 1 default profile: "default"
-2024-02-04 14:49:59.421  INFO 9376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-02-04 14:49:59.591  INFO 9376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interfaces.
-2024-02-04 14:50:00.938  INFO 9376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2024-02-04 14:50:00.959  INFO 9376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-02-04 14:50:00.960  INFO 9376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
-2024-02-04 14:50:01.252  INFO 9376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-02-04 14:50:01.253  INFO 9376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4036 ms
-2024-02-04 14:50:01.369  INFO 9376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-02-04 14:50:01.814  INFO 9376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-02-04 14:50:01.844  INFO 9376 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./customers'
-2024-02-04 14:50:02.068  INFO 9376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-02-04 14:50:02.197  INFO 9376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
-2024-02-04 14:50:02.580  INFO 9376 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2024-02-04 14:50:02.842  INFO 9376 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2024-02-04 14:50:04.196  INFO 9376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-02-04 14:50:04.215  INFO 9376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-02-04 14:50:04.836  WARN 9376 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-02-04 14:50:05.518  INFO 9376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2024-02-04 14:50:05.545  INFO 9376 --- [main] c.s.m.customer.CustomerManagmentSystem   : Started CustomerManagmentSystem in 9.605 seconds (JVM running for 12.256)
+2024-02-06 20:32:32.751  INFO 8488 --- [main] c.s.m.customer.CustomerManagmentSystem   : Starting CustomerManagmentSystem using Java 17.0.7 on DESKTOP-NN3IC12 with PID 8488 (C:\Users\Casper\git\repository\customer-managment-system\target\classes started by Casper in C:\Users\Casper\git\repository\customer-managment-system)
+2024-02-06 20:32:32.833  INFO 8488 --- [main] c.s.m.customer.CustomerManagmentSystem   : No active profile set, falling back to 1 default profile: "default"
+2024-02-06 20:32:37.845  INFO 8488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-06 20:32:38.250  INFO 8488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 274 ms. Found 1 JPA repository interfaces.
+2024-02-06 20:32:40.293  INFO 8488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-06 20:32:40.358  INFO 8488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-06 20:32:40.360  INFO 8488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-02-06 20:32:40.770  INFO 8488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-06 20:32:40.771  INFO 8488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6930 ms
+2024-02-06 20:32:40.881  INFO 8488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-06 20:32:41.416  INFO 8488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-06 20:32:41.505  INFO 8488 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./customers'
+2024-02-06 20:32:41.802  INFO 8488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-06 20:32:41.965  INFO 8488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2024-02-06 20:32:42.417  INFO 8488 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-02-06 20:32:43.007  INFO 8488 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-02-06 20:32:44.961  INFO 8488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-06 20:32:44.983  INFO 8488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-06 20:32:45.876  WARN 8488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-06 20:32:46.917  INFO 8488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-06 20:32:46.943  INFO 8488 --- [main] c.s.m.customer.CustomerManagmentSystem   : Started CustomerManagmentSystem in 16.567 seconds (JVM running for 23.754)
+2024-02-06 20:33:20.419  INFO 8488 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-06 20:33:20.540  INFO 8488 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-06 20:33:20.549  INFO 8488 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-06 20:33:20.590  INFO 8488 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

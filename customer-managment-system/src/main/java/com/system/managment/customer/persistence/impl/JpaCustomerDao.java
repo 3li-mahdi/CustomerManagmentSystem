@@ -18,4 +18,5 @@ public class JpaCustomerDao implements CustomerDao {
     public Customer findOneById(Long id) {
         return entityManager.find(Customer.class, id);
     }
+    
 }
